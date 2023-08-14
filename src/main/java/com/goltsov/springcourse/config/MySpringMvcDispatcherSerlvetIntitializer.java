@@ -1,11 +1,8 @@
-package com.goltsov.spring.mvc.config;
+package com.goltsov.springcourse.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-public class MySpringMVCDispatcherServletInitializer
-        extends AbstractAnnotationConfigDispatcherServletInitializer {
-
-    // This method is not used in this app, so it returns null
+public class MySpringMvcDispatcherSerlvetIntitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
     protected Class<?>[] getRootConfigClasses() {
         return null;
